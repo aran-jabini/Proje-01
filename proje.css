@@ -1,0 +1,214 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face 
+body{
+	direction: rtl;
+}
+.container{
+	margin: 40px auto;
+	max-width: 700px;
+	text-align: center;
+	align-self: center;
+	font-family: "B Mitra";
+	font-size: 18px;
+}
+ul{
+	text-align: right;
+	display: inline-block;
+	list-style: none;
+	padding-left: 0px;
+}
+.menu li{
+	float: right;
+	padding: 0.65em 1em;
+	border: 1px solid #eee;
+	cursor: pointer;
+	background-color: #ffca28;
+	color: black;
+	position: relative;
+	border-radius: 5px;
+	margin: 1px;
+	
+}
+.menu li:hover{
+	background-color:#689f38;
+	color: #fff;
+	
+}
+li ul{
+	position: absolute;
+	top: 100%;
+	right: 0%;
+	z-index: 1;
+	width:150px;
+	display: none;
+	transition: 0.3s;
+	
+}
+li ul li {
+	width:100px;
+}
+li:hover ul{
+	display: block;
+}
+li.submenu::after{
+	content: "\25bc";
+	font-size: 0.7em;
+	padding-right: 2px;
+}
+img{
+	padding: 1%;
+	width: 30%;
+	height: 60%;
+	display: inline;
+	border: double;
+	margin: 3% 0%;
+}
+
+b {
+	font-size:30px;
+	display: inline;
+}
+p{
+	font-size:20px;
+	display: inline;
+	font-weight: 700;
+}
+h1{
+	font-size: 65px;
+	font-family:"B Elham";
+	text-align: center;
+}
+h3{
+	font-size: 20px;
+}
+div.text1 {
+	text-align:center;
+	background-color: #B0D2D3;
+	width: 50%;
+	height:25%;
+	margin: 0% 25% 0% 45%;
+	border: medium;
+	border-radius: 15px;
+	padding: 1% 1%;
+	font-weight: 100;
+}
+div.number1{
+	float: right;
+	font-size: 150px;
+	padding: 1% 1%;
+	margin: 5% 1%;
+}
+div.offer {
+	background-color: #85C807;
+	width: 75%;
+	height:37.5%;
+	margin: 4.5% 9%;
+	border: medium;
+	border-radius: 15px;
+	padding: 5px 10px;
+	display: inline-block;
+	text-align: center;
+}
+div.number2{
+	display: inline;
+	float: right;
+	font-size:150px;
+	padding: 1% 1%;
+	margin: 5% 1% 5% 1%;
+}
+.img1{
+	width:20%;
+	height: 20%;
+	display: inline-block;
+	float: left;
+	padding: 2%;
+}
+.img2{
+	width: 20%;
+	height: 20%;
+	display: inline-block;
+	float: right;
+	padding: 2%;
+}
+.img3{
+	width: 17%;
+	height: 17%;
+	display: inline-block;
+	padding: 2%;
+}
+figure.title{
+	float: inherit;
+	color: midnightblue;
+}
+p.desk{
+	display: block;
+	text-align: center;
+}
+ul.bio{
+	font-size: 20px;
+	font-family: "Mj_Beirut Light";
+}
+div.h1{
+	width: 40%;
+	height: 40%;
+	overflow: hidden;
+	background-color: #FF642F;
+	align-self: center;
+	border-radius: 10px;
+	margin:7.5% 15% 0% 15%;
+}
+b{
+	font-family: "Mj_Freehand";
+}
+div.lastnews{
+	background-color: #607d8b;
+    width: 60%;
+	height: 60%;
+	direction: rtl;
+	margin: 0% 5%;
+	text-align: center;
+	border-radius: 15px;
+
+}
+div.number3{
+	display: inline;
+	float: right;
+	font-size:150px;
+	padding: 1% 1%;
+	margin: 1% 1% ;
+}
+ul.news {
+	text-decoration: none;
+	list-style:empty;
+	position: relative;
+	
+}
+a.news {
+	text-decoration: none;
+	color:#26c6da;
+	font-family: "B Mehr";
+	font-size: 15px;
+}
+div.crypto{
+	display:table-footer-group;
+}
+a.lan{
+	color: black;
+	font-family: "B Mitra";
+	text-decoration: none;
+}
+div.footer{
+	background-color: #f44336;
+	margin: 2% 3%;
+}
+img.dark{
+	width: 20px;
+	height: 20px;
+	background-color: #d7ccc8;
+}
+img.light{
+	width: 20px;
+	height: 20px;
+	background-color: #d7ccc8;
+}
